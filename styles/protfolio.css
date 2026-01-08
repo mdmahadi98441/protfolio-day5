@@ -16,6 +16,7 @@
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
 }
 .logo h2{
     font-size: 45px;
@@ -27,11 +28,14 @@
 header{
     background-color: #fff8f3;
     padding-top: 50px;
+    background: url(../images/developer.png) ,url(../images/header_bg.png),#fff8f3;
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
 }
 nav{
     width: 71%;
     max-width: 1140px;
-    border: 1px soli red;
+    
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -47,4 +51,41 @@ nav .menu{
     gap: 51px;
     list-style: none;
     align-items: center;
+}
+
+
+#benner{
+    margin: 47px 38px 0 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#benner .benner-content{
+    max-width:585px;
+}
+#benner .benner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+#benner .benner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#benner .benner-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#benner .benner-img img{
+    max-width: 585px;
+    vertical-align: middle;
+}
+nav #benner{
+    background: url(../images/developer.png);
 }
